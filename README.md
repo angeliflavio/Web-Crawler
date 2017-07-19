@@ -5,6 +5,13 @@ specific websites.
 
 ## Web Crawlers
 
+A web crawler, also called spider, is an algorithm that systematically browse the Internet, typically 
+for the purpose of web indexing. Web search engines and other websites use web crawling to 
+to update their web content. Web crawlers can copy all the pages they visit for later processing by a search engine which indexes the downloaded pages so the users can search much more efficiently.
+
+A Web crawler starts with a list of URLs to visit, called the seeds. As the crawler visits these URLs, it identifies all the hyperlinks in the page and adds them to the list of URLs to visit, called the crawl frontier. URLs from the frontier are recursively visited according to a set of policies. If the crawler is performing archiving of websites it copies and saves the information as it goes.
+
+Mechanisms exist for public sites not wishing to be crawled to make this known to the crawling agent. For instance, including a robots.txt file can request bots to index only parts of a website, or nothing at all.
 
 ## Algos
 
